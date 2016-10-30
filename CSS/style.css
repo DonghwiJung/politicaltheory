@@ -1,0 +1,326 @@
+/* Define web font files */
+/*
+ * Nanum Gothic (Korean) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+	font-family: 'NG Web';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot);
+	src: url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+		 url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff2) format('woff2'),
+		 url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff) format('woff'),
+		 url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'NG Web';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot);
+	src: url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+		 url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff2) format('woff2'),
+		 url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff) format('woff'),
+		 url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'NG Web';
+	font-style: normal;
+	font-weight: 800;
+	src: url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot);
+	src: url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+		 url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff2) format('woff2'),
+		 url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff) format('woff'),
+		 url(https://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+/*
+* Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),
+		 url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),
+		 url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),
+		 url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),
+		 url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+	 font-family: 'Noto Sans KR';
+	 font-style: normal;
+	 font-weight: 400;
+	 src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+		url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+		url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+ }
+@font-face {
+	 font-family: 'Noto Sans KR';
+	 font-style: normal;
+	 font-weight: 500;
+	 src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),
+		url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),
+		url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');
+ }
+@font-face {
+	 font-family: 'Noto Sans KR';
+	 font-style: normal;
+	 font-weight: 700;
+	 src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),
+		url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),
+		url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');
+ }
+@font-face {
+	 font-family: 'Noto Sans KR';
+	 font-style: normal;
+	 font-weight: 900;
+	 src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),
+		url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),
+		url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');
+ }
+
+/*광역*/
+*{
+	box-sizing: border-box
+}
+body {
+	font-size: 15px;
+	font-family: 'Apple Gothic', Helvetica, Arial, sans-serif;
+	line-height: 1.42857;
+	color: #333;
+}
+html:lang(ko) body {
+	font-family: '나눔고딕', 'NG Web', 'Apple Gothic', Helvetica, Arial, sans-serif;
+}
+html:lang(en) body{
+	font-family: 'Noto Sans KR','Apple Gothic', Helvetica, Arial, sans-serif
+}
+header, main, nav, footer {display:block;}
+p, ol, ul {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.bold_text{
+	font-weight:bold;
+}
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+a {
+	color: #337ab7;
+	text-decoration: none;
+}
+a:active, a:hover {
+	outline: 0 none;
+	text-decoration: none;
+}
+a:focus, a:hover {
+	color: #23527c;
+}
+/*ul{
+	list-style: none;
+	padding-left:0;
+	margin-left:0;
+}*/
+
+#top_title {
+	text-align:center;
+	padding: 20px 0;
+	margin:0;
+	color: rgb(0, 0, 102);
+	background-image: url("../img/background.jpg");
+}
+#top_title span {
+	margin: 0;
+	font-size: 40px;
+	font-weight: bold
+}
+html:lang(en) #top_title span{
+	font-size:37px
+}
+
+#top_menu {
+	background-color: #374a82;
+	font-size:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align: center;
+}
+#top_menu span{
+	margin-left:25px;
+	margin-right:25px;
+}
+#top_menu a{
+	color:white;
+}
+#top_menu .menu{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.English{
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right:1px solid white;
+	border-left:1px solid white;
+}
+
+#main_content {
+	width: 50%;
+	min-width:750px;
+	margin: 30px auto 0px;
+	padding: 0px 10px;
+	padding-bottom: 130px;
+}
+.text-justify {
+	text-align: justify;
+}
+#main_content ol{
+	padding-left:25px;
+}
+
+
+/* 이전 워크숍 / 향후 일정 캘린더 디자인 */
+div.year{
+	text-align:right;
+	font-size:17px;
+}
+div.timeline h2.month{
+	font-size:20px;
+	font-weight: normal;
+	margin:30px 0px 10px;
+}
+div.timeline h3.date{
+	height: 30px;
+	font-size: 15px;
+	margin: 20px 0 5px;
+	border-bottom: 1px solid #000;
+}
+
+
+#main_content table {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	text-align: justify;
+	width:660px;
+}
+.month{
+	font-size:20px;
+}
+
+.month-btw td{
+	padding-top:30px;
+}
+.heading {
+	height: 40px;
+}
+.heading th {
+	border-bottom: 1px solid black;
+	padding-top: 20px;
+	padding-bottom:5px;
+}
+.left_col {
+	padding-top: 6.5px;
+	padding-bottom: 6.5px;
+	padding-right: 6.5px;
+	width:80px;
+}
+.left_col span {
+	width: 73.5px;
+}
+.right_col {
+	padding: 6.5px;
+}
+.content_row a{
+	color:#337ab7;
+}
+
+
+/*향후 일정 상세 보기*/
+.event-title{
+	margin-bottom:30px;
+}
+
+/* Contact us 이메일 주소 디자인 */
+
+#query, #query * {
+	text-align: center;
+	font-size: 15px;
+	line-height: 2;
+}
+#query img {
+	height: 50px;
+}
+#query li {
+	padding-bottom: 5px;
+}
+
+/* footer 디자인 */
+
+
+#footer {
+	text-align: center;
+	font-size:12px;
+}
+#footer address {
+	font-style:normal;
+}
+#related_sites {
+	background-color: #283842;
+	padding: 10px;
+}
+#related_sites span {
+	color: #E8E8E8;
+}
+.space {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#related_sites span a {
+	color: #E8E8E8;
+}
+#address_copyright {
+	background-color: #223038;
+	color: #A2AEB3;
+	padding: 10px;
+}
+#address_copyright p {
+	margin-bottom: 0;
+}
+
+
+/* footer 하단 고정 */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+#container {
+	min-height: 100%;
+	position: relative;
+}
+#footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+}
+
+/* 작은 화면 스타일 */
+@media (max-width: 750px) {
+	#main_content {
+		width: 100%;
+		min-width:100%;
+	}
+}
